@@ -1,7 +1,28 @@
+# Replace with your own project details.
+
 [project]
-name = "python-template"
+name = "Your Project Name"
+description = "A simple wrapper for ..."
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
-requires-python = ">=3.11"
-dependencies = []
+license = "..."
+requires-python = ">= 3.11"
+dependencies = ["requests==2.32.4"]
+keywords=["This", "is", "a", "template"]
+#classifiers = [
+#  "Development Status :: 5 - Production/Stable",
+#  "Intended Audience :: Developers",
+#  "Programming Language :: Python",
+#  "Operating System :: OS Independent",
+#]
+#authors = [
+#  {name = "John Doe", email = "example@gmail.com"}
+#]
+#maintainers = [
+#  {name = "John Doe", email = "example@gmail.com"}
+#]
+#dynamic = ["readme"]
+
+#[project.urls]
+#Repository = "Url here..."
+#Issues = "Url here..."
+#Changelog = "Url here..."

@@ -1,8 +1,9 @@
-entrypoint = "main.py"
+entrypoint = "wrapperTemplate/main.py"
 modules = ["python-3.11"]
 
 [nix]
 channel = "stable-25_05"
+packages = ["sem"]
 
 [unitTest]
 language = "python3"
@@ -11,5 +12,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "main.py"]
+run = ["python3", "wrapperTemplate/main.py"]
 deploymentTarget = "cloudrun"
