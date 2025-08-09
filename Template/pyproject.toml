@@ -20,7 +20,6 @@ keywords=["This", "is", "a", "template"]
 #maintainers = [
 #  {name = "John Doe", email = "example@gmail.com"}
 #]
-#dynamic = ["readme"]
 
 #[project.urls]
 #Repository = "Url here..."
